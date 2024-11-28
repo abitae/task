@@ -18,11 +18,11 @@ class TaskFactory extends Factory
     public function definition(): array
     {
         return [
-            'code' => $this->faker->uuid(),
+            'code' => $this->faker->ean8(),
             'title' => $this->faker->name(),
-            'description'=> $this->faker->name(),
-            'status' => $this->faker->randomElement(['pendiente','progreso,', 'completada']),
-            'priority' => $this->faker->randomElement(['Alta','Media,', 'Baja']),
+            'description'=> $this->faker->text(),
+            'status' => $this->faker->randomElement(['PENDIENTE','PROGRESO', 'COMPLETADO']),
+            'priority' => $this->faker->randomElement(['ALTA','MEDIA,', 'BAJA']),
             'finality' => Carbon::now(),
         ];
     }
