@@ -4,9 +4,9 @@ API para gestionar tareas con autenticación JWT utilizando Laravel.
 
 ## Requisitos
 
-- PHP 7.3 o superior
+- PHP 8.1 o superior
 - Composer
-- Laravel 8.x o superior
+- Laravel 10.x o superior
 - Base de datos (MySQL, SQLite, etc.)
 
 ## Instalación
