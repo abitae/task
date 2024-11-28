@@ -21,6 +21,8 @@ Sigue estos pasos para instalar y configurar la API:
    git clone https://github.com/abitae/task.git
    cd task
    composer install
+   npm i
+   npm run build
    cp .env.example .env
 
 2. **Base de datos**
